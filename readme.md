@@ -1,4 +1,4 @@
-nálise de Algoritmos de Ordenação de Complexidade Quadrática ($O(N^2)$)
+Análise de Algoritmos de Ordenação de Complexidade Quadrática ($O(N^2)$)
 
 Este projeto implementa e avalia a performance de três algoritmos de ordenação com complexidade quadrática em tempo, utilizando o RGM 45600171 para a ordenação inicial e vetores aleatórios de diferentes tamanhos para o benchmark.
 
@@ -167,5 +167,6 @@ Conclusão do Melhor Método
 Para o contexto deste benchmark (dados aleatórios e complexidade $O(N^2)$):
 
 O método mais eficiente é o Selection Sort, pois ele gerencia melhor o recurso mais custoso (a troca de elementos na memória), realizando o número mínimo necessário de swaps.
+
 
 No entanto, em uma perspectiva prática de Engenharia de Software, o melhor método para ordenar dados seria sempre um algoritmo $O(N \log N)$ (como Quick Sort ou Merge Sort), que tem uma taxa de crescimento muito mais suave e escalável, tornando o custo aceitável mesmo para grandes volumes de dados.
